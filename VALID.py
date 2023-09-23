@@ -95,7 +95,7 @@ def binn(num):
 
 
 
-def oper(ress):#SE PUEDE USAR EN "calculadora_cadena.py"
+def oper(ress):
     operr=[]
     for i in (ress):
         if ord(i)<48 or ord(i)>57:
