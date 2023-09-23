@@ -85,7 +85,7 @@ def binn(num):
     restos=[]
     while num>1:
         res=int(num%2)#PARA QUE EL RESTO SALGA SIN DECIMALES
-        restos.append(str(res))#PARA QUE RES SE AÑADA A LA LISTA EN FORMATO "str".
+        restos.append(str(res))
         num=int(num/2)
     stri=str(num)
     nv=restos[::-1]
