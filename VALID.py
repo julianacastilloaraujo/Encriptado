@@ -45,7 +45,7 @@ def ns(c):
         print(chr(7));c=input("Escribe solo \'n\' o \'s\' según su opción: ")
     return(c)
 
-def ER(n):#SE PUEDE RESUMIR/MEJORAR
+def ER(n):
     strn=str(n)
     lstrn=len(strn)
     if (".") in strn or ("-") in strn:
@@ -56,8 +56,7 @@ def ER(n):#SE PUEDE RESUMIR/MEJORAR
             else:
                 break
         if ("-") in strn:
-            lstrn-=1
-            
+            lstrn-=1      
     if lstrn>=4 and lstrn<=18:
         if lstrn>=4 and lstrn<=6:
             res=("mil"+str(lstrn-3))
@@ -69,11 +68,9 @@ def ER(n):#SE PUEDE RESUMIR/MEJORAR
             res=("billon"+str(lstrn-12))
         if lstrn>=16 and lstrn<=18:
             res=("trillon"+str(lstrn-15))
-
         return("("+res+")")
     else:
         return("")
-
 def oop(string):
     try:
         n=eval(string)
