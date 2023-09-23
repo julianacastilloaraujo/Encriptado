@@ -4,8 +4,7 @@ def OKI(n):
     except:
         n=OKI(input("Caracter no valido: "))
     return n
-
-def OKP(n): #ESTA FUNCION ES COMO "OK" SOLO QUE ADMITE EL NÚMERO "pi".
+def OKP(n): 
     from math import pi
     if n!=("pi"):
         try:
@@ -15,7 +14,6 @@ def OKP(n): #ESTA FUNCION ES COMO "OK" SOLO QUE ADMITE EL NÚMERO "pi".
     else:
         n=pi
     return n
-
 def OK(n):
     try:
         n=float(n)
