@@ -80,11 +80,10 @@ def oop(string):
     except:
         n=oop(input("Operación no válida: "))
     return n
-
 def binn(num):
     restos=[]
     while num>1:
-        res=int(num%2)#PARA QUE EL RESTO SALGA SIN DECIMALES
+        res=int(num%2)
         restos.append(str(res))
         num=int(num/2)
     stri=str(num)
