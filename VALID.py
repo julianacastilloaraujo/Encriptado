@@ -88,13 +88,10 @@ def binn(num):
         restos.append(str(res))#PARA QUE RES SE AÑADA A LA LISTA EN FORMATO "str".
         num=int(num/2)
     stri=str(num)
-    nv=restos[::-1]#PARA INVERTIR EL ORDEN DE LOS ELEMENTOS EN UNA LISTA
+    nv=restos[::-1]
     j=("").join(nv)
     sf=stri+j
     return sf
-
-
-
 def oper(ress):
     operr=[]
     for i in (ress):
